@@ -1,0 +1,227 @@
+[
+  {
+    "id": 241096,
+    "data_realizacao": "2020-02-08T15:00",
+    "hora_realizacao": "15:00",
+    "placar_oficial_visitante": 0,
+    "placar_oficial_mandante": 7,
+    "placar_penaltis_visitante": null,
+    "placar_penaltis_mandante": null,
+    "equipes": {
+      "mandante": {
+        "id": 3754,
+        "nome_popular": "Avaí/Kindermann",
+        "sigla": "KIN",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2020/02/06/Avaí_Kindermann.svg"
+      },
+      "visitante": {
+        "id": 4312,
+        "nome_popular": "Vitória",
+        "sigla": "VIT",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/vitoria.svg"
+      }
+    },
+    "sede": {
+      "nome_popular": "Caçador"
+    },
+    "transmissao": null
+  },
+  {
+    "id": 241092,
+    "data_realizacao": "2020-02-08T17:00",
+    "hora_realizacao": "17:00",
+    "placar_oficial_visitante": 1,
+    "placar_oficial_mandante": 2,
+    "placar_penaltis_visitante": null,
+    "placar_penaltis_mandante": null,
+    "equipes": {
+      "mandante": {
+        "id": 4458,
+        "nome_popular": "Grêmio",
+        "sigla": "GRE",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2018/03/12/gremio.svg"
+      },
+      "visitante": {
+        "id": 4617,
+        "nome_popular": "Minas Icesp",
+        "sigla": "MIC",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2019/03/03/minas.svg"
+      }
+    },
+    "sede": {
+      "nome_popular": "Francisco Novelletto"
+    },
+    "transmissao": null
+  },
+  {
+    "id": 241094,
+    "data_realizacao": "2020-02-08T17:00",
+    "hora_realizacao": "17:00",
+    "placar_oficial_visitante": 0,
+    "placar_oficial_mandante": 4,
+    "placar_penaltis_visitante": null,
+    "placar_penaltis_mandante": null,
+    "equipes": {
+      "mandante": {
+        "id": 4308,
+        "nome_popular": "Ferroviária",
+        "sigla": "FER",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2019/01/08/Ferroviaria_Araraquara.svg"
+      },
+      "visitante": {
+        "id": 4380,
+        "nome_popular": "Audax-SP",
+        "sigla": "AUD",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2019/01/11/Audax-SP.svg"
+      }
+    },
+    "sede": {
+      "nome_popular": "Fonte Luminosa"
+    },
+    "transmissao": null
+  },
+  {
+    "id": 241097,
+    "data_realizacao": "2020-02-08T17:00",
+    "hora_realizacao": "17:00",
+    "placar_oficial_visitante": 0,
+    "placar_oficial_mandante": 4,
+    "placar_penaltis_visitante": null,
+    "placar_penaltis_mandante": null,
+    "equipes": {
+      "mandante": {
+        "id": 4306,
+        "nome_popular": "Santos",
+        "sigla": "SAN",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2018/03/12/santos.svg"
+      },
+      "visitante": {
+        "id": 4305,
+        "nome_popular": "Flamengo",
+        "sigla": "FLA",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2018/04/10/Flamengo-2018.svg"
+      }
+    },
+    "sede": {
+      "nome_popular": "Ulrico Mursa"
+    },
+    "transmissao": {
+      "label": "veja como foi",
+      "url": "https://globoesporte.globo.com/futebol/brasileiro-feminino/jogo/08-02-2020/santos-feminino-flamengo-feminino.ghtml"
+    }
+  },
+  {
+    "id": 241098,
+    "data_realizacao": "2020-02-09T14:00",
+    "hora_realizacao": "14:00",
+    "placar_oficial_visitante": 3,
+    "placar_oficial_mandante": 1,
+    "placar_penaltis_visitante": null,
+    "placar_penaltis_mandante": null,
+    "equipes": {
+      "mandante": {
+        "id": 4776,
+        "nome_popular": "Palmeiras",
+        "sigla": "PAL",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2019/07/06/Palmeiras.svg"
+      },
+      "visitante": {
+        "id": 4307,
+        "nome_popular": "Corinthians",
+        "sigla": "COR",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2019/09/30/Corinthians.svg"
+      }
+    },
+    "sede": {
+      "nome_popular": "Nelo Bracalente"
+    },
+    "transmissao": {
+      "label": "veja como foi",
+      "url": "https://globoesporte.globo.com/futebol/brasileiro-feminino/jogo/09-02-2020/palmeiras-corinthians-feminino.ghtml"
+    }
+  },
+  {
+    "id": 241095,
+    "data_realizacao": "2020-02-09T15:00",
+    "hora_realizacao": "15:00",
+    "placar_oficial_visitante": 0,
+    "placar_oficial_mandante": 2,
+    "placar_penaltis_visitante": null,
+    "placar_penaltis_mandante": null,
+    "equipes": {
+      "mandante": {
+        "id": 4771,
+        "nome_popular": "Internacional",
+        "sigla": "INT",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/internacional.svg"
+      },
+      "visitante": {
+        "id": 3760,
+        "nome_popular": "São José-SP",
+        "sigla": "SJO",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2019/03/23/sao_jose_ec-sp-01.svg"
+      }
+    },
+    "sede": {
+      "nome_popular": "Estádio do Vale"
+    },
+    "transmissao": {
+      "label": "veja como foi",
+      "url": "https://globoesporte.globo.com/sp/vale-do-paraiba-regiao/futebol/jogo/09-02-2020/internacional-soo-jose-sp.ghtml"
+    }
+  },
+  {
+    "id": 241099,
+    "data_realizacao": "2020-02-09T15:00",
+    "hora_realizacao": "15:00",
+    "placar_oficial_visitante": 5,
+    "placar_oficial_mandante": 0,
+    "placar_penaltis_visitante": null,
+    "placar_penaltis_mandante": null,
+    "equipes": {
+      "mandante": {
+        "id": 4460,
+        "nome_popular": "Ponte Preta",
+        "sigla": "PON",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2019/03/17/ponte-preta.svg"
+      },
+      "visitante": {
+        "id": 3752,
+        "nome_popular": "Iranduba",
+        "sigla": "IRA",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2013/09/28/iranduba_65.png"
+      }
+    },
+    "sede": {
+      "nome_popular": "Moisés Lucarelli"
+    },
+    "transmissao": null
+  },
+  {
+    "id": 241093,
+    "data_realizacao": "2020-02-10T19:00",
+    "hora_realizacao": "19:00",
+    "placar_oficial_visitante": 0,
+    "placar_oficial_mandante": 1,
+    "placar_penaltis_visitante": null,
+    "placar_penaltis_mandante": null,
+    "equipes": {
+      "mandante": {
+        "id": 4781,
+        "nome_popular": "Cruzeiro",
+        "sigla": "CRU",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/cruzeiro.svg"
+      },
+      "visitante": {
+        "id": 4250,
+        "nome_popular": "São Paulo",
+        "sigla": "SAO",
+        "escudo": "https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/sao-paulo.svg"
+      }
+    },
+    "sede": {
+      "nome_popular": "Estádio das Alterosas"
+    },
+    "transmissao": null
+  }
+]

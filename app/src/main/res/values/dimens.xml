@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_smallest">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+
+    <dimen name="padding_small">8dp</dimen>
+
+    <dimen name="corner_radius_default">8dp</dimen>
+
+    <dimen name="non_elevation">0dp</dimen>
+    <dimen name="header_background">128dp</dimen>
+    <dimen name="shield">60dp</dimen>
+</resources>

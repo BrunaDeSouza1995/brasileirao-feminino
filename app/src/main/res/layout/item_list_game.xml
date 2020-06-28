@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/corner_radius_default">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/gameDateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_default"
+            android:fontFamily="@font/roboto"
+            android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Body2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="04 SETEMBRO 2020 - 19:00" />
+
+        <TextView
+            android:id="@+id/gameThirstText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Caption"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/gameDateText"
+            tools:text="Estádio" />
+
+        <TextView
+            android:id="@+id/gamePrincipalInitialsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_smallest"
+            android:layout_marginBottom="@dimen/margin_default"
+            android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/gamePrincipalTeamShieldImage"
+            app:layout_constraintStart_toStartOf="@id/gamePrincipalTeamShieldImage"
+            app:layout_constraintTop_toBottomOf="@id/gamePrincipalTeamShieldImage"
+            tools:text="Time A" />
+
+        <ImageView
+            android:id="@+id/gamePrincipalTeamShieldImage"
+            android:layout_width="@dimen/shield"
+            android:layout_height="@dimen/shield"
+            app:layout_constraintBottom_toBottomOf="@id/gamePrincipalScoreText"
+            app:layout_constraintEnd_toStartOf="@id/gamePrincipalScoreText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/gamePrincipalScoreText"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/ic_shield_gray" />
+
+        <TextView
+            android:id="@+id/gamePrincipalScoreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Headline3"
+            app:layout_constraintBottom_toBottomOf="@id/gameVersusView"
+            app:layout_constraintEnd_toStartOf="@id/gameVersusView"
+            app:layout_constraintTop_toTopOf="@id/gameVersusView"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/gameVersusView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginBottom="@dimen/margin_default"
+            android:text="@string/divider"
+            android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Headline4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/gameThirstText" />
+
+        <TextView
+            android:id="@+id/gameVisitingScoreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Headline3"
+            app:layout_constraintBottom_toBottomOf="@id/gameVersusView"
+            app:layout_constraintStart_toEndOf="@id/gameVersusView"
+            app:layout_constraintTop_toTopOf="@id/gameVersusView"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/gamePenaltyScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/gameVersusView"
+            tools:text="(0 - 0)" />
+
+        <ImageView
+            android:id="@+id/gameVisitingTeamShieldImage"
+            android:layout_width="@dimen/shield"
+            android:layout_height="@dimen/shield"
+            app:layout_constraintBottom_toBottomOf="@id/gameVisitingScoreText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/gameVisitingScoreText"
+            app:layout_constraintTop_toTopOf="@id/gameVisitingScoreText"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/ic_shield_white" />
+
+        <TextView
+            android:id="@+id/gameVisitingInitialsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_smallest"
+            android:layout_marginBottom="@dimen/margin_default"
+            android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/gameVisitingTeamShieldImage"
+            app:layout_constraintStart_toStartOf="@id/gameVisitingTeamShieldImage"
+            app:layout_constraintTop_toBottomOf="@id/gameVisitingTeamShieldImage"
+            tools:text="Time B" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
