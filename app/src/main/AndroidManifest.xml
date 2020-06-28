@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.poc.bruna.brasileirao_feminino">
+    package="com.poc.bruna.brasileiraofeminino">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".feature.application.BrasileiraoApplication"
+        android:name="com.poc.bruna.brasileiraofeminino.feature.application.BrasileiraoApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -17,7 +17,7 @@
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup"
         tools:targetApi="m">
-        <activity android:name=".feature.game.view.GameActivity">
+        <activity android:name="com.poc.bruna.brasileiraofeminino.feature.game.view.GameActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
